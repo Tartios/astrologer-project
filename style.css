@@ -1,0 +1,62 @@
+.body {
+    background-color: #202024;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-image: url(./img/background-header.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-width: 1440px;
+}
+
+.header__img {
+    display: flex;
+    background-image: url(./img/eyes.svg);
+    background-position: center;
+    height: 238px;
+    width: 238px;
+    padding: 76px;
+    margin: 0 auto;
+}
+
+.header__text {
+    display: flex;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, .4);
+    font-size: 16px;
+    max-width: 1440px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+    padding-bottom: 19px;
+}
+
+.header__description {
+    color: rgba(255, 255, 255, .6);
+    font-size: 25px;
+}
+
+.header__title {
+    color: #F6C866;
+    font-weight: 100;
+    font-size: 25px;
+    width: 500px;
+    margin: 0 auto 23px;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__button {
+    height: 70px;
+    width: 316px;
+    align-content: center;
+    justify-content: center;
+    background-color: rgba(242, 200, 102, .9);
+    border-radius: 40px;
+    margin: 17px auto;
+}
