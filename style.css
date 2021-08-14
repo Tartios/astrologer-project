@@ -5,20 +5,9 @@
 .header {
     display: flex;
     flex-direction: column;
-    background-image: url(./img/background-header.png);
-    background-size: contain;
-    background-repeat: no-repeat;
     max-width: 1440px;
-}
-
-.header__img {
-    display: flex;
-    background-image: url(./img/eyes.svg);
-    background-position: center;
-    height: 238px;
-    width: 238px;
-    padding: 76px;
-    margin: 0 auto;
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+    padding-bottom: 19px;
 }
 
 .header__text {
@@ -28,21 +17,47 @@
     font-size: 16px;
     max-width: 1440px;
     text-align: center;
-    border-bottom: 1px solid rgba(255, 255, 255, .2);
-    padding-bottom: 19px;
 }
 
-.header__description {
+.question {
+    display: flex;
+    flex-direction: column;
+    background-image: url(./img/background-header.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.question__description {
     color: rgba(255, 255, 255, .6);
     font-size: 25px;
+    text-align: center;
 }
 
-.header__title {
+.question__img {
+    display: flex;
+    background-image: url(./img/eyes.svg);
+    background-position: center;
+    height: 238px;
+    width: 238px;
+    padding: 76px;
+    margin: 0 auto;
+}
+
+.question__title {
     color: #F6C866;
     font-weight: 100;
     font-size: 25px;
     width: 500px;
     margin: 0 auto 23px;
+    text-align: center;
+}
+
+.question__text {
+    display: flex;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, .4);
+    font-size: 16px;
+    max-width: 1440px;
     text-align: center;
 }
 
@@ -60,3 +75,61 @@
     border-radius: 40px;
     margin: 17px auto;
 }
+
+.description {
+    border: 1px solid #fff;
+    width: 442px;
+    height: 437px;
+    margin: 100px auto 0;
+    position: relative;
+    display: flex;
+}
+
+.description__img {
+    position: absolute;
+    height: 135px;
+    width: 135px;
+    top: -67px;
+    left: 153.5px;
+}
+
+.description__text {
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    font-size: 25px;
+    position: relative;
+    width: 365px;
+    margin: auto auto 83px;
+}
+
+.description-block {
+    background-image: url(./img/landscape.jpg);
+    margin-top: 69px;
+    max-width: 1440px;
+    height: 606px;
+}
+
+.description-block__text {
+    color: #fff;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    max-width: 380px;
+    height: 258px;
+    display: flex;
+    flex-direction: column;
+    margin: 240px auto auto;
+}
+
+.survey {}
+
+.survey-form__title {}
+
+.survey-form__text {}
+
+.footer {}
+
+.footer__svg {}
+
+.footer__text {}
