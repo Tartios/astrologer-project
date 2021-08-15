@@ -89,7 +89,7 @@
     width: 316px;
     align-content: center;
     justify-content: center;
-    background: linear-gradient(60deg, rgba(242, 200, 102, .9) 0%, rgba(255, 255, 255, .9) 27%, rgba(242,200,102, .9) 0%);
+    background: linear-gradient(60deg, rgba(242, 200, 102, .9) 25%, rgba(255, 255, 255, .808) 39%, rgba(242,200,102, .9) 54%);
     /* background-color: rgba(242, 200, 102, .9); */
     border-radius: 40px;
     margin: 17px auto;
