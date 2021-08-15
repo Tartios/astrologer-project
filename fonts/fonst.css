@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'Roboto';
+    font-display: swap;
+    src: url('./Roboto-Light.ttf');
+}
+@font-face {
+    font-family: 'Roboto';
+    font-display: swap;
+    src: url('./Roboto-Regular.ttf');
+}
+@font-face {
+    font-family: 'Bad Script';
+    font-style: normal;
+    font-display: swap;
+    src: url('./BadScript-Regular.ttf');
+}
